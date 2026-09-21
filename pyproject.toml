@@ -1,0 +1,11 @@
+[project]
+name = "slideshow"
+version = "1.0.0"
+description = "写真と動画から自動再生・ループ対応のPowerPointスライドショーを自動作成するPythonツール"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.14"
+dependencies = [
+    "pillow>=12.2.0",
+    "python-pptx>=1.0.2",
+]
